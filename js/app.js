@@ -98,8 +98,8 @@ const getStudents = async () => {
             <td>${output[i].std_name}</td>
             <td>${output[i].std_age}</td>
             <td>${output[i].std_country}</td>
-            <td><button onclick="editStudent(${output[i].id})" class="btn btn-success">Edit</button></td>
-            <td><button onclick="deleteStudent(${output[i].id})"  class="btn btn-danger">Delete</button></td>
+            <td><button onclick="editStudent(${output[i].id})" class="btn btn-success">Editar</button></td>
+            <td><button onclick="deleteStudent(${output[i].id})"  class="btn btn-danger">Borrar</button></td>
             </tr>`
             }
         }
