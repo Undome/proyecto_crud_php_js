@@ -13,9 +13,9 @@ include 'config.php';
     $sql="INSERT INTO students (std_name,std_age,std_country) VALUES ('{$name}',{$age},'{$country}')";
     $run_sql=mysqli_query($conn,$sql);
     if($run_sql){
-        echo json_encode(["success"=>true,"message"=>"Student Add Succcessfully"]);
+        echo json_encode(["success"=>true,"message"=>"Estudiante agregado exitosamente"]);
     }else{
-        echo json_encode(["success"=>false,"message"=>"Server Problem"]);
+        echo json_encode(["success"=>false,"message"=>"Problema del servidor"]);
     }
 // }
 

@@ -14,9 +14,9 @@ $sql="UPDATE students SET std_name='{$name}', std_age='{$age}', std_country='{$c
 $run_sql=mysqli_query($conn,$sql);
 
 if($run_sql){
-    echo json_encode(["success"=>true,"message"=>"Student Update Succcessfully"]);
+    echo json_encode(["success"=>true,"message"=>"Estudiante actualizado correctamente"]);
 }else{
-    echo json_encode(["success"=>false,"message"=>"Server Problem"]);
+    echo json_encode(["success"=>false,"message"=>"Problema del servidor"]);
 }
 
 ?>
