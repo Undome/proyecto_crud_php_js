@@ -58,15 +58,15 @@
             <h3>Crear estudiante</h3>
             <div class="form-group">
                 <label for=""><b>Introduce tu nombre</b></label>
-                <input type="text" placeholder="Enter your name" id="name" class="form-control">
+                <input type="text" placeholder="Introduce tu nombre" id="name" class="form-control">
             </div>
             <div class="form-group">
                 <label for=""><b>Introduce tu edad</b></label>
-                <input type="number" placeholder="Enter your age" id="age" class="form-control">
+                <input type="number" placeholder="Introduce tu edad" id="age" class="form-control">
             </div>
             <div class="form-group">
                 <label for=""><b>Introduce tu pais</b></label>
-                <input type="text" placeholder="Enter your country" id="country" class="form-control">
+                <input type="text" placeholder="Introduce tu pais" id="country" class="form-control">
             </div>
             <div class="form-group buttons">
                 <button class="btn btn-success" type="submit" id="save">Salvar</button>
@@ -82,16 +82,16 @@
             <h3>Actualizar estudiante</h3>
             <div class="form-group">
                 <label for=""><b>Introduce tu nombre</b></label>
-                <input type="text" placeholder="Enter your name" id="edit_name" class="form-control">
+                <input type="text" placeholder="Introduce tu nombre" id="edit_name" class="form-control">
                 <input type="hidden" placeholder="Id" id="id" class="form-control">
             </div>
             <div class="form-group">
                 <label for=""><b>Introduce tu edad</b></label>
-                <input type="number" placeholder="Enter your age" id="edit_age" class="form-control">
+                <input type="number" placeholder="Introduce tu edad" id="edit_age" class="form-control">
             </div>
             <div class="form-group">
                 <label for=""><b>Introduce tu pais</b></label>
-                <input type="text" placeholder="Enter your country" id="edit_country" class="form-control">
+                <input type="text" placeholder="Introduce tu pais" id="edit_country" class="form-control">
             </div>
             <div class="form-group buttons">
                 <button class="btn btn-success" id="update" type="submit">Actualizar</button>
